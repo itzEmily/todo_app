@@ -1,71 +1,99 @@
 <html>
     <head>
         <title>to-do app</title>
-        <style>
-            #title {
-                color: #b3b3ff;
-                font-family: Georgia;
-            }
-            
-            #list {
-                font-family: Monospace;
-            }
-            
-            body {
-                width: 450px;
-                height: 500px;
-            }
-        </style>
-        <script>
-            
-        </script>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div id="title">
         <h1>to-do list</h1>
-        </div>
-        <div id="list">
+            <table>
+                <div id="subtitle">
+                <tr>
+                    <th>To-Do(s)</th>
+                    <th>Promodoro(s)</th>
+                </tr>
+                </div>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                        <a href="show.html">make four boxes</a>
+                    </th>
+                    <th>
+                        <span class="pomodoro-estimate">1 pomodoro</span>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                        <a href="show.html">make new tab for input place</a>
+                    </th>
+                    <th>
+                        <span class="pomodoro-estimate">1 pomodoro</span>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                        <a href="show.html">make what i did for my input wireframe</a>
+                    </th>
+                    <th>
+                        <span class="pomodoro-estimate">5 pomodoros</span>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                        <a href="show.html">go back and create the check list</a>
+                    </th>
+                    <th>
+                        <span class="pomodoro-estimate">3 pomodoros</span>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                        <a href="show.html">create the calendar</a>
+                    </th>
+                    <th>
+                        <span class="pomodoro-estimate">5 pomodoros</span>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                        <a href="show.html">create the schedule planner</a>
+                    </th>
+                    <th>
+                        <span class="pomodoro-estimate">6 pomodoros</span>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                        <a href="show.html">create the timer</a>
+                    </th>
+                    <th>
+                        <span class="pomodoro-estimate">3 pomodoros</span>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                        <a href="show.html">make screen sizer for each box of items</a>
+                    </th>
+                    <th>
+                        <span class="pomodoro-estimate">3 pomodoros</span>
+                    </th>
+                </tr>
+            </table>
+        <h1>add to-do</h1>
         <p>
-            <input type="checkbox">
-            make four boxes
-        </p>
-        <p>
-            <input type="checkbox">
-            make new tab for input place
-        </p>
-        <p>
-            <input type="checkbox">
-            make what i did for my input wireframe
-        </p>
-        <p>
-            <input type="checkbox">
-            go back and create the check list
-        </p>
-        <p>
-            <input type="checkbox">
-            create the calendar
-        </p>
-        <p>
-            <input type="checkbox">
-            create the schedule planner
-        </p>
-        <p>
-            <input type="checkbox">
-            create the timer
-        </p>
-        <p>
-            <input type="checkbox">
-            make it so you can full screen each box of items
-        </p>
-        <p>
-            Add to-do
+            Text
             <input type="text">
         </p>
         <p>
             Pomodoro Estimate
             <input type="text">
         </p>
-        <button>submit</button>
-        </div>
+        <button id="add-to-do-button">submit</button>
     </body>
 </html>
