@@ -25,10 +25,19 @@ p {
     color: #ffffff;
     cursor: pointer;
     border: none;
-    font-size: 30px;
+    font-size: 25px;
     font-family: monospace;
+    margin-left: 100px;
 }
 
-table {
+th {
     text-align: left;
+}
+
+#centered {
+    text-align: center;
+}
+
+#title {
+    margin-left: 150px;
 }
