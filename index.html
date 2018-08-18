@@ -2,95 +2,98 @@
     <head>
         <title>to-do app</title>
         <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </head>
     <body>
-        <h1 id="title">to-do list</h1>
+        <h1 id="listtitle">to-do list</h1>
             <table>
                 <tr>
                     <th id="centered">To-Do(s)</th>
                     <th id="centered">Promodoro(s)</th>
                 </tr>
-                </class>
                 <tr>
-                    <th>
+                    <td>
                         <input type="checkbox">
                         <a href="show.html">make four boxes</a>
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <span class="pomodoro-estimate">1 pomodoro</span>
-                    </th>
+                    </td>
                 </tr>
                 <tr>
-                    <th>
+                    <td>
                         <input type="checkbox">
                         <a href="show.html">make new tab for input place</a>
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <span class="pomodoro-estimate">1 pomodoro</span>
-                    </th>
+                    </td>
                 </tr>
                 <tr>
-                    <th>
+                    <td>
                         <input type="checkbox">
                         <a href="show.html">make what i did for my input wireframe</a>
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <span class="pomodoro-estimate">5 pomodoros</span>
-                    </th>
+                    </td>
                 </tr>
                 <tr>
-                    <th>
+                    <td>
                         <input type="checkbox">
                         <a href="show.html">go back and create the check list</a>
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <span class="pomodoro-estimate">3 pomodoros</span>
-                    </th>
+                    </td>
                 </tr>
                 <tr>
-                    <th>
+                    <td>
                         <input type="checkbox">
                         <a href="show.html">create the calendar</a>
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <span class="pomodoro-estimate">5 pomodoros</span>
-                    </th>
+                    </td>
                 </tr>
                 <tr>
-                    <th>
+                    <td>
                         <input type="checkbox">
                         <a href="show.html">create the schedule planner</a>
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <span class="pomodoro-estimate">6 pomodoros</span>
-                    </th>
+                    </td>
                 </tr>
                 <tr>
-                    <th>
+                    <td>
                         <input type="checkbox">
                         <a href="show.html">create the timer</a>
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <span class="pomodoro-estimate">3 pomodoros</span>
-                    </th>
+                    </td>
                 </tr>
                 <tr>
-                    <th>
+                    <td>
                         <input type="checkbox">
                         <a href="show.html">make screen sizer for each box of items</a>
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         <span class="pomodoro-estimate">3 pomodoros</span>
-                    </th>
+                    </td>
                 </tr>
             </table>
-        <h1>add to-do</h1>
+        <div id="new-todo">
+        <h1 id="todotitle">add to-do</h1>
         <p>Text<p>
-        <input type="text">
+        <input type="text" id="new-todo-description" type="text" placeholder>
         <p>Pomodoro Estimate</p>
-        <input type="number">
+        <input type="number" id="new-pomodoro-estimate" type="number" placeholder>
         <p>
             <button id="add-to-do-button">submit</button>
         </p>
+        </div>
     </body>
 </html>

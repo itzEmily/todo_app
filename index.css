@@ -1,8 +1,3 @@
-h1 {
-    color: #b3b3ff;
-    font-family: Georgia;
-}
-            
 th {
     font-family: Monospace;
 }
@@ -27,7 +22,7 @@ p {
     border: none;
     font-size: 25px;
     font-family: monospace;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 th {
@@ -38,6 +33,20 @@ th {
     text-align: center;
 }
 
-#title {
-    margin-left: 150px;
+#listtitle {
+    margin-left: 140px;
+    color: #b3b3ff;
+    font-family: Georgia;
+}
+
+#todotitle {
+    margin-left: 18px;
+    color: #b3b3ff;
+    font-family: Georgia;
+}
+
+#new-todo {
+    position: fixed;
+    top: -10px;
+    right: 30px;
 }
